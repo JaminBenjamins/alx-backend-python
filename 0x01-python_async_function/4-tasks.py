@@ -4,7 +4,7 @@
     with a specified delay in each call
 """
 import asyncio
-from typing import Lisy
+from typing import List
 
 
 task_wait_random = __import__('3-tasks').task_wait_random
