@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ Contains a function that measure
-    execution time of a function 
+    execution time of a function
 """
 from time import perf_counter
 import asyncio
