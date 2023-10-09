@@ -11,7 +11,7 @@ task_wait_random = __import__('3-tasks').task_wait_random
 
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
-    """Spawns a function in a randomized amount of time 
+    """Spawns a function in a randomized amount of time
     Args:
         n: number of times to call the function
         max_delay: the maximum amount of delay time
