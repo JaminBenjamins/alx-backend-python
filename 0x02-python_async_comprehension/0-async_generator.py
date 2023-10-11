@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ A python looping ten times and returning a random number"""
 import random
 import asyncio
