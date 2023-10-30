@@ -41,7 +41,7 @@ class TestGetJson(unittest.TestCase):
     method to test that utils.get_json returns expected result
     """
     @parameterized.expand([
-        ("http://example.com", {"payload": True})
+        ("http://example.com", {"payload": True}),
         ("http://holberton.io", {"payload": False})
     ])
     def test_get_json(self, url, payload):
@@ -82,6 +82,5 @@ class TestMemoize(unittest.TestCase):
 
         with patch.object(TestClass, 'a_method') as mocked:
             spec = TestClass()
-            spec.a_property
             spec.a_property
             mocked.asset_called_once()
